@@ -12,6 +12,7 @@
 		F208E78C198582510055AF03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F208E78A198582510055AF03 /* Main.storyboard */; };
 		F208E78E198582510055AF03 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F208E78D198582510055AF03 /* Images.xcassets */; };
 		F208E79A198582510055AF03 /* UIViewFadeExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F208E799198582510055AF03 /* UIViewFadeExtensionsTests.swift */; };
+		F208E7A61985894A0055AF03 /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F208E7A51985894A0055AF03 /* UIViewExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,7 @@
 		F208E793198582510055AF03 /* UIViewFadeExtensionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIViewFadeExtensionsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F208E798198582510055AF03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F208E799198582510055AF03 /* UIViewFadeExtensionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewFadeExtensionsTests.swift; sourceTree = "<group>"; };
+		F208E7A51985894A0055AF03 /* UIViewExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,8 +77,9 @@
 		F208E783198582510055AF03 /* UIViewFadeExtensions */ = {
 			isa = PBXGroup;
 			children = (
-				F208E786198582510055AF03 /* AppDelegate.swift */,
+				F208E7A51985894A0055AF03 /* UIViewExtensions.swift */,
 				F208E788198582510055AF03 /* ViewController.swift */,
+				F208E786198582510055AF03 /* AppDelegate.swift */,
 				F208E78A198582510055AF03 /* Main.storyboard */,
 				F208E78D198582510055AF03 /* Images.xcassets */,
 				F208E784198582510055AF03 /* Supporting Files */,
@@ -209,6 +212,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F208E789198582510055AF03 /* ViewController.swift in Sources */,
+				F208E7A61985894A0055AF03 /* UIViewExtensions.swift in Sources */,
 				F208E787198582510055AF03 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

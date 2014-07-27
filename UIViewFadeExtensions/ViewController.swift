@@ -1,25 +1,18 @@
-//
-//  ViewController.swift
-//  UIViewFadeExtensions
-//
-//  Created by Andrew & Courtney Bancroft on 7/27/14.
-//  Copyright (c) 2014 Andrew Bancroft. All rights reserved.
-//
-
 import UIKit
 
 class ViewController: UIViewController {
-                            
+	@IBOutlet weak var birdTypeLabel: UILabel!
+                        
 	override func viewDidLoad() {
 		super.viewDidLoad()
-		// Do any additional setup after loading the view, typically from a nib.
+		// Do any additional setup that your app requires
 	}
-
-	override func didReceiveMemoryWarning() {
-		super.didReceiveMemoryWarning()
-		// Dispose of any resources that can be recreated.
+	
+	@IBAction func updateBirdTypeLabel(sender: UIButton) {
+		self.birdTypeLabel.fadeOut(completion: {
+			(finished: Bool) -> Void in
+			self.birdTypeLabel.text = "Bird Type: Swift"
+			self.birdTypeLabel.fadeIn()
+			})
 	}
-
-
 }
-
