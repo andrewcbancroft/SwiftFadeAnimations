@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6185.11" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7531" systemVersion="14D131" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6190.4"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -32,8 +32,8 @@
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bird Type:  Update to find out!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gjE-gj-Cp7">
                                 <rect key="frame" x="200" y="43" width="231" height="21"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="231" id="gz7-25-iDQ"/>
-                                    <constraint firstAttribute="height" constant="21" id="lhM-85-LUH"/>
+                                    <constraint firstAttribute="width" constant="231" id="8Bl-pJ-SYe"/>
+                                    <constraint firstAttribute="height" constant="21" id="ohD-mQ-B6e"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -42,10 +42,10 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="centerX" secondItem="gjE-gj-Cp7" secondAttribute="centerX" constant="-15.5" id="CsY-J4-1hB"/>
-                            <constraint firstAttribute="centerX" secondItem="BtC-87-KE1" secondAttribute="centerX" constant="-15.5" id="JnN-B4-ZdD"/>
-                            <constraint firstItem="gjE-gj-Cp7" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="23" id="KRO-Cn-ckW"/>
-                            <constraint firstItem="BtC-87-KE1" firstAttribute="top" secondItem="gjE-gj-Cp7" secondAttribute="bottom" constant="36" id="xfw-TJ-8KM"/>
+                            <constraint firstItem="gjE-gj-Cp7" firstAttribute="centerX" secondItem="BtC-87-KE1" secondAttribute="centerX" id="N2j-Ts-Hth"/>
+                            <constraint firstAttribute="centerX" secondItem="gjE-gj-Cp7" secondAttribute="centerX" constant="-15.5" id="VkI-fO-Sun"/>
+                            <constraint firstItem="gjE-gj-Cp7" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="23" id="fcD-TL-IPT"/>
+                            <constraint firstItem="BtC-87-KE1" firstAttribute="top" secondItem="gjE-gj-Cp7" secondAttribute="bottom" constant="36" id="nBj-jW-5YW"/>
                         </constraints>
                     </view>
                     <connections>
