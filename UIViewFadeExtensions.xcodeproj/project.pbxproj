@@ -156,6 +156,7 @@
 		F208E779198582510055AF03 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0600;
 				ORGANIZATIONNAME = "Andrew Bancroft";
 				TargetAttributes = {
@@ -401,6 +402,7 @@
 				F208E79F198582510055AF03 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F208E7A0198582510055AF03 /* Build configuration list for PBXNativeTarget "UIViewFadeExtensionsTests" */ = {
 			isa = XCConfigurationList;
@@ -409,6 +411,7 @@
 				F208E7A2198582510055AF03 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
