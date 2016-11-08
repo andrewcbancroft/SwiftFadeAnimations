@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C3F2D2EB1DD2568D00B0C13C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3F2D2EA1DD2568D00B0C13C /* LaunchScreen.storyboard */; };
 		F208E787198582510055AF03 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F208E786198582510055AF03 /* AppDelegate.swift */; };
 		F208E789198582510055AF03 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F208E788198582510055AF03 /* ViewController.swift */; };
 		F208E78C198582510055AF03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F208E78A198582510055AF03 /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C3F2D2EA1DD2568D00B0C13C /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F208E781198582510055AF03 /* UIViewFadeExtensions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIViewFadeExtensions.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F208E785198582510055AF03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F208E786198582510055AF03 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -90,6 +92,7 @@
 		F208E784198582510055AF03 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C3F2D2EA1DD2568D00B0C13C /* LaunchScreen.storyboard */,
 				F208E785198582510055AF03 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -162,9 +165,11 @@
 				TargetAttributes = {
 					F208E780198582510055AF03 = {
 						CreatedOnToolsVersion = 6.0;
+						LastSwiftMigration = 0800;
 					};
 					F208E792198582510055AF03 = {
 						CreatedOnToolsVersion = 6.0;
+						LastSwiftMigration = 0800;
 						TestTargetID = F208E780198582510055AF03;
 					};
 				};
@@ -193,6 +198,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3F2D2EB1DD2568D00B0C13C /* LaunchScreen.storyboard in Resources */,
 				F208E78C198582510055AF03 /* Main.storyboard in Resources */,
 				F208E78E198582510055AF03 /* Images.xcassets in Resources */,
 			);
@@ -335,6 +341,7 @@
 				INFOPLIST_FILE = UIViewFadeExtensions/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Debug;
 		};
@@ -346,6 +353,7 @@
 				INFOPLIST_FILE = UIViewFadeExtensions/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Release;
 		};
@@ -364,6 +372,7 @@
 				INFOPLIST_FILE = UIViewFadeExtensionsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 			};
 			name = Debug;
@@ -379,6 +388,7 @@
 				INFOPLIST_FILE = UIViewFadeExtensionsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 			};
 			name = Release;
