@@ -8,7 +8,7 @@ class ViewController: UIViewController {
 		// Do any additional setup that your app requires
 	}
 	
-	@IBAction func updateBirdTypeLabel(sender: UIButton) {
+	@IBAction func updateBirdTypeLabel(_ sender: UIButton) {
 		self.birdTypeLabel.fadeOut(completion: {
 			(finished: Bool) -> Void in
 			self.birdTypeLabel.text = "Bird Type: Swift"
